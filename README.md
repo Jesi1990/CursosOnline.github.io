@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Online</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background: #f4f4f4; }
+        header { background: #007bff; color: #fff; padding: 20px; }
+        section { padding: 20px; }
+        .curso { border: 1px solid #ddd; margin: 10px; padding: 15px; display: inline-block; width: 300px; background: #fff; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); border-radius: 10px; }
+        button { background: #007bff; color: #fff; border: none; padding: 10px; cursor: pointer; margin-top: 10px; border-radius: 5px; }
+        button:hover { background: #0056b3; }
+        footer { background: #007bff; color: #fff; padding: 10px; position: relative; width: 100%; margin-top: 20px; }
+        form input, form select, form textarea { width: 80%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Nuestra Plataforma de Cursos</h1>
+    </header><section>
+    <h2>Nuestros Cursos</h2>
+    <div class="curso">
+        <h3>Curso de Fotografía</h3>
+        <img src="fotografia.jpg" alt="Curso de Fotografía" width="100%">
+        <p>Aprende las bases de la fotografía y mejora tus habilidades.</p>
+        <button>Más información</button>
+        <button>Pagar ahora</button>
+    </div>
+    <div class="curso">
+        <h3>Edición de Fotos</h3>
+        <img src="edicion.jpg" alt="Curso de Edición" width="100%">
+        <p>Descubre cómo editar fotos como un profesional.</p>
+        <button>Más información</button>
+        <button>Pagar ahora</button>
+    </div>
+</section>
+
+<section>
+    <h2>Inscripción a los Cursos</h2>
+    <form>
+        <input type="text" placeholder="Nombre" required><br>
+        <input type="email" placeholder="Correo electrónico" required><br>
+        <select required>
+            <option value="">Selecciona un curso</option>
+            <option value="fotografia">Curso de Fotografía</option>
+            <option value="edicion">Edición de Fotos</option>
+        </select><br>
+        <button type="submit">Inscribirse</button>
+    </form>
+</section>
+
+<section>
+    <h2>Preguntas Frecuentes</h2>
+    <p>¿Cuánto duran los cursos? - Aproximadamente 4 semanas.</p>
+    <p>¿Recibo un certificado? - Sí, al completar el curso.</p>
+</section>
+
+<section>
+    <h2>Contacto</h2>
+    <form>
+        <input type="text" placeholder="Nombre" required><br>
+        <input type="email" placeholder="Correo electrónico" required><br>
+        <textarea placeholder="Tu mensaje" required></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 - Todos los derechos reservados</p>
+    <p><a href="https://www.facebook.com" style="color: #fff;">Síguenos en Facebook</a> | <a href="https://www.instagram.com" style="color: #fff;">Instagram</a></p>
+</footer>
+
+</body>
+</html>
